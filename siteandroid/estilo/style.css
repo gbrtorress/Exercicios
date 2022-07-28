@@ -38,9 +38,10 @@ a.externo::after {
 
 header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
-    min-height: 150px;
+    min-height: 200px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 55px;
+    
 }
 
 header > h1 {
@@ -88,10 +89,10 @@ nav > a:hover {
 
 main {
 
-    min-width: 300 px;
+    min-width: 400 px;
     max-width: 1000 px;
     margin: auto;
-    margin-bottom: 30px;
+    margin-top: -22px;
     padding: 20 px;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.315);
@@ -105,6 +106,7 @@ main h1 {
     font-family: var(--font-android);
     font-weight: normal;
     font-size: 1.8em;
+    padding-left: 10px;
 
 }
 
@@ -121,6 +123,7 @@ main p {
     margin: 15px 0px 15px 0px;
     text-align: justify;
     text-indent: 30px;
+    padding-left: 10px;
     font-size: 1em;
     line-height: 2em;
 
