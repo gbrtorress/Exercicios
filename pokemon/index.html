@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,72 +7,79 @@
     <title>TCG Pokemon</title>
 
     <link rel="shortcut icon" href="imagens/pokebola.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet" />
+    
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400&display=swap" rel="stylesheet">
-
-
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <header>
-        <img src="imagens/pokebola.png" alt="pokébola">
-        <h1>Training Card Game - Pokemon </h1>
+    <header class="cabecalho">
+        <img src="imagens/pokebola.png" alt="pokébola" class="pokebola">
+        <h1 class="titulo">Training Card Game - Pokemon </h1>
     </header>
     
-    <main>
-        <button>
+    <main class="slider">
+        <button class="btn-seta btn-voltar">
             <img src="imagens/seta.png" alt="seta voltar">
         </button>
 
-        <ul>
-            <li>
-                <div>
-                    <h2>Pikachu</h2>
-                    <p>HP 300</p>
-                </div>
-
-                <div>
-                    <img src="imagens/pikachu.png" alt="Pikachu">
-                </div>
-
-                <div>
-                    <h3>Descrição</h3>
-                    <p>Pikachu é um Pokémon roedor meio gordinho, com o pêlo amarelo em todo o seu corpo. As orelhas de Pikachu são longas e chegam a um ponto com pontas pretas. Ele tem uma boca pequena, que se assemelha a um lado tres, tem olhos negros com os alunos brancos e dois círculos vermelhos em suas bochechas. Seus antebraços são curtos e um pouco atarracado, com cinco dedos em cada "mão", e seus pés têm três dígitos. Ele tem duas listras marrons em suas costas, e sua cauda é em forma de raio Zigzag de estilo, com um pedaço de pele marrom na base da cauda. Embora seja tecnicamente um quadrúpede , em várias ocasiões tem sido mostrado para ser capaz de ficar de pé e andar ereto sobre as patas traseiras.</p>
-                </div>
+        <ul class="lista-pokemons">
+            <li class="cartao selecionado fundo-1">
+              <div class="informacoes">
+                <h2 class="nome">Pikachu</h2>
+                <p class="vida">HP 300</p>
+              </div>
+    
+              <div class="container-imagem">
+                <img src="imagens/pikachu.png" alt="Pikachu" class="imagem-pokemon"/>
+              </div>
+    
+              <div class="descricao">
+                <h3 class="titulo1">Descrição</h3>
+                <p class="texto">Os Pikachus são pequenos roedores de quarenta centímetros e de seis quilogramas, com um corpo redondo, pernas curtas e uma longa cauda, quando macho, a cauda tem um formato de um raio, mas se o Pikachu for fêmea sua cauda ganha um coração na ponta.</p>
+              </div>
             </li>
-            <li>
-                <div>
-                    <h2>Charizard</h2>
-                    <p>HP 800</p>
-                </div>
-
-                <div>
-                    <img src="imagens/charizard.png" alt="Charizard">
-                </div>
-
-                <div>
-                    <h3>Descrição</h3>
-                    <p>Ao contrário de suas pré-evoluções, tem asas que lhe permite voar, é um pokemon muito parecido com um dragão. Como suas formas anteriores, é bípede e tem uma longa cauda com uma chama que só se apaga quando ele morre. Tem três garras extremamente afiadas, dígitos distintos, um longo pescoço, e dois chifres salientes na parte de trás de sua cabeça. A frente de suas duas asas é azul-petróleo, enquanto a traseira é laranja como a maior parte de seu corpo. Embora pouco visível, a iris de Charizard é azul de cor clara. Sua barriga e parte inferior das patas são de cor creme.</p>
-                </div>
+    
+            <li class="cartao fundo-2">
+              <div class="informacoes">
+                <h2 class="nome">Charizard</h2>
+                <p class="vida">HP 800</p>
+              </div>
+    
+              <div class="container-imagem">
+                <img src="imagens/charizard.png" alt="Charizard" class="imagem-pokemon"/>
+              </div>
+    
+              <div class="descricao">
+                <h3 class="titulo1">Descrição</h3>
+                <p class="texto">Geralmente, um Charizard é competitivo. Ele adora a batalha e seu espírito competitivo também é notável, uma vez que nunca vai cuspir fogo em um inimigo mais fraco a menos que provocado ou ordenado. Quando fica muito irritado, as chamas em sua cauda se tornam branco-azuladas.</p>
+              </div>
             </li>
-            <li>
-                <div>
-                    <h2>Mewtwo</h2>
-                    <p>HP 1200</p>
-                </div>
-
-                <div>
-                    <img src="imagens/mewtwo.png" alt="Mewtwo">
-                </div>
-
-                <div>
-                    <h3>Descrição</h3>
-                    <p>Mewtwo é uma criatura com uma postura humanóide, mas tem algumas características felinas. O corpo de Mewtwo é cinzento-roxo e uma cauda longa totalmente da cor roxa. Mewtwo tem três dígitos circulares em cada apêndice. Tem uma ponta no interior de cada um dos pés, como muitos primatas do mundo real, bem como duas outras que ficam na frente. Ele tem os olhos roxos e duas orelhas curtas.</p>
-                </div>
+    
+            <li class="cartao fundo-3">
+              <div class="informacoes">
+                <h2 class="nome">Mewtwo</h2>
+                <p class="vida">HP 1200</p>
+              </div>
+    
+              <div class="container-imagem">
+                <img src="imagens/mewtwo.png" alt="Mewtwo" class="imagem-pokemon"/>
+              </div>
+    
+              <div class="descricao">
+                <h3 class="titulo1">Descrição</h3>
+                <p class="texto">Mewtwo foi criado geneticamente em um laboratório, sendo um clone do misterioso antigo Pokémon Mew. É uma criatura com uma postura humanóide, mas tem algumas características felinas.</p>
+              </div>
             </li>
-
-        </ul>
-    </main>
-</body>
-</html>
+          </ul>
+    
+          <button class="btn-seta">
+            <img src="imagens/seta.png" alt="seta avançar" />
+          </button>
+        </main>
+      </body>
+    </html>
+    
