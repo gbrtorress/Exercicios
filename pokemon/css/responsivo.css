@@ -1,0 +1,39 @@
+@media (max-width: 620px) {
+
+    .pokebola {
+        margin-left: 30px;
+    }
+
+    .slider {
+        padding:  0 15px;
+        gap: 10px;
+    }
+
+    .btn-seta {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lista-pokemons {
+        height: 480px;
+
+    }
+
+   .imagem-pokemon {
+        max-height: 230px;
+        
+    }
+
+    .nome {
+        max-width: 50%;
+        font-size: 18px;
+    }
+
+    .vida {
+        font-size: 14px;
+    }
+}
